@@ -1,0 +1,47 @@
+.container img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  margin-left: 10rem;
+}
+
+.header {
+  margin-left: 10rem;
+}
+
+ul li {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4rem;
+  max-width: 80%;
+}
+
+ul {
+  margin-left: 8rem;
+}
+
+@media screen and (max-width: 767px) {
+  ul {
+    margin: 2rem auto;
+  }
+  ul li {
+    max-width: 90%;
+    margin: 0.5rem 0;
+  }
+  .container {
+    max-width: 100%;
+    margin-bottom: 2rem;
+  }
+  .header {
+    margin: 0 auto;
+  }
+  .container img {
+    margin: 0 auto;
+  }
+}

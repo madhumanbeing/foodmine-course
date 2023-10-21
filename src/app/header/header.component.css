@@ -10,11 +10,12 @@ header {
 
 a {
   color: #949494;
+  transition-duration: 100ms;
 }
 
 a:hover {
-  background-color: #525252;
-  color: white;
+  transform: scale(1.1);
+  transition-duration: 100ms;
 }
 
 .container {

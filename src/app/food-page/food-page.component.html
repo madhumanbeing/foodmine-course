@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="header">
+    <h1 class="title">
+      {{ food.title }}
+    </h1>
+  </div>
+  <img [src]="food.imageUrl" [alt]="food.title" />
+  <div class="ingredients">
+    <ul>
+      <h2>Ingredients</h2>
+      <li *ngFor="let ingredient of food.ingredients">{{ ingredient }}</li>
+    </ul>
+  </div>
+  <div class="steps">
+    <ul>
+      <li *ngFor="let step of food.steps; let i = index">
+        <h3>Step {{ i + 1 }}</h3>
+        <p>{{ step }}</p>
+      </li>
+    </ul>
+  </div>
+</div>

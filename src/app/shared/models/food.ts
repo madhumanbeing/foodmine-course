@@ -4,4 +4,6 @@ export class Food {
     imageUrl!:string;
     cookTime!:string;
     serves!:string;
+    ingredients!:string[];
+    steps!:string[];
 }

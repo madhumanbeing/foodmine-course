@@ -30,17 +30,20 @@ li a {
     width: 10rem;
   }
   .cooktime {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
   }
   .timer {
     width: 0.7rem;
     height: 0.7rem;
   }
   .name {
-    font-size: 0.9rem;
+    font-size: 0.6rem;
   }
   .content {
-    padding: 0;
+    padding-left: -0.2rem;
+  }
+  li {
+    margin: 0.25rem 0;
   }
 }
 
