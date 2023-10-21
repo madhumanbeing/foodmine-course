@@ -5,6 +5,11 @@ ul {
   flex-wrap: wrap;
   list-style-type: none;
   padding: 0;
+  color: #383838;
+}
+
+li {
+  margin: 0.25rem;
 }
 
 li a {
@@ -16,10 +21,55 @@ li a {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  color: #e72929;
+  color: #5e5e5e;
+}
+
+@media screen and (max-width: 767px) {
+  li a {
+    height: 10rem;
+    width: 10rem;
+  }
+  .cooktime {
+    font-size: 0.6rem;
+  }
+  .timer {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  .name {
+    font-size: 0.9rem;
+  }
+  .content {
+    padding: 0;
+  }
 }
 
 li a:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   cursor: pointer;
+}
+
+.content {
+  padding-left: 1rem;
+  position: relative;
+}
+
+.timer {
+  width: 1rem;
+  height: 1rem;
+  transform: translateY(15%);
+}
+
+.cooktime {
+  font-size: 1rem;
+}
+
+.name {
+  font-size: 1.1rem;
+}
+
+.searchBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
 }

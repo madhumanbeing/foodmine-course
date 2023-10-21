@@ -1,15 +1,19 @@
 header {
   background: white;
   padding: 0;
-  border-bottom: 1px solid #e72929;
+  border-bottom: 1px solid #525252;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 a {
-  color: #af1313;
+  color: #949494;
 }
 
 a:hover {
-  background-color: #e72929;
+  background-color: #525252;
   color: white;
 }
 
@@ -17,11 +21,14 @@ a:hover {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
+  margin-left: 6rem;
   font-weight: bold;
-  padding: 1em;
+  font-size: 2rem;
+  padding-top: 0.55rem;
 }
 
 nav ul {
@@ -29,7 +36,16 @@ nav ul {
   margin: 0;
 }
 
-nav ul li a {
-  padding: 1em;
+nav ul li {
+  padding: 0.75em;
   display: inline-block;
+}
+
+@media screen and (max-width: 767px) {
+  .logo {
+    margin-left: 4rem;
+  }
+  .container {
+    justify-content: center;
+  }
 }

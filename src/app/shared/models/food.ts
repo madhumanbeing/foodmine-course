@@ -1,3 +1,7 @@
 export class Food {
-    id?:number;
+    title!:string;
+    tags!:string[];
+    imageUrl!:string;
+    cookTime!:string;
+    serves!:string;
 }

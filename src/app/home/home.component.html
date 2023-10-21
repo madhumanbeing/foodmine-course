@@ -1,7 +1,30 @@
+<div class="searchBox">
+  <app-search></app-search>
+</div>
 <ul>
   <li *ngFor="let food of foods">
     <a>
-      <img src="{{ food }}" alt="" />
+      <img src="{{ food.imageUrl }}" alt="" />
     </a>
+    <div class="content">
+      <div class="name">{{ food.title }}</div>
+      <div class="cooktime">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke-width="1.5"
+          stroke="currentColor"
+          class="timer"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+          />
+        </svg>
+        {{ food.cookTime }}
+      </div>
+    </div>
   </li>
 </ul>
