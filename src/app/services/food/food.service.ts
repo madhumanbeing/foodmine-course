@@ -39,8 +39,24 @@ export class FoodService {
         imageUrl: '/assets/images/chickenShawarma.png',
         cookTime: '20 min',
         serves: '4-5',
-        ingredientsArray: [],
-        steps: []
+        ingredientsArray: [{
+          ingredientTitle: "Ingredients",
+          ingredients: [
+            '1kg chicken thighs',
+            '1 lrg clove garlic',
+            '1 tbsp ground coriander',
+            '1 tbsp ground cumin',
+            '1 tbsp ground cardamon',
+            '1 tsp cayanne pepper',
+            '2 tsp smoked paprika',
+            '2 tsp salt',
+            '2 tbsp lemon juice',
+            '3 tbsp olive oil',
+            'black pepper to taste'
+          ]
+        }],
+        steps: ["mix spices/oil/lemon juice and marinade chicken overnight",
+      'Fry until cooked.']
       },
       {        
         title: 'Roast Potatoes',
@@ -71,7 +87,7 @@ export class FoodService {
       },
       {        
         title: 'Dhal',
-        tags: ['dinner', 'vegetarian', 'dhal'],
+        tags: ['dinner', 'vegetarian', 'dhal', 'curry'],
         imageUrl: '/assets/images/dhal.png',
         cookTime: '1 hr, 30 min',
         serves: '4',
@@ -703,6 +719,105 @@ export class FoodService {
         ]}],
         steps: ['Preheat oven to 180°C, grease and line 8x8 tin with coconut oil. ', 'Whisk together eggs, coconut milk, sugar and vanilla. ', 'Add in coconut flour and whisk until smooth (if too thick, add coconut oil). ', 'Add baking powder and salt. ', 'Transfer to tray, smooth top and bake for 20 minutes or until cooked (top may not brown). ']
       },
+      {
+        title: 'Banana Bread',
+        tags: ['dessert', 'banana bread'],
+        imageUrl: '/assets/images/bananabread.jpg',
+        cookTime: '1 hr 10 mins',
+        serves: '8',
+        ingredientsArray:[{
+          ingredientTitle: 'Ingredients',
+          ingredients: [
+            "2 large overripe bananas",
+            '2 eggs',
+            'vanilla essense',
+            '1/3-1/2 cup coconut oil',
+            '1/2 cup maple syrup (or brown sugar)',
+            '1 cup wholemeal self raising flour',
+            '3/4 cup oatmeal',
+            '1 tsp baking powder',
+            '1 tsp nutmeg',
+            '1 tsp cinnamon',
+            'pinch of salt',
+            '2-4 medjool dates'
+          ]
+        }],
+        steps:[
+          'Mash bananas with a fork',
+          'Beat together eggs, vanilla and coconut oil',
+          'Combine all dry ingredients in a large bowl and add egg mix until smooth',
+          'Add bananas and chopped dates',
+          'Bake for 50-60 mins at 200C (bottom shelf is best)'
+        ]
+      },
+      {
+        title: 'Fish Curry',
+        tags: ['dinner', 'lunch', 'fish curry', 'curry'],
+        imageUrl: '/assets/images/fishCurry.jpg',
+        cookTime: '1 hr 20 mins',
+        serves: '4',
+        ingredientsArray:[
+          {ingredientTitle: 'Ingredients',
+        ingredients:[
+          'Chopped onions',
+          'Garlic',
+          'Pumpkin',
+          'Carrot',
+          'Sweet potato',
+          'Parsnip',
+          'Brocolli',
+          'Spring onions',
+          'Snow peas',
+          'Bok Choy',
+          'Coriander to serve',
+          'Any seafood',
+          '4 tsp red curry paste (medium heat)',
+          '1 cup coconut milk'
+        ]}
+        ],
+        steps:[
+          "Saute onions and garlic in a generous amount of oil, then add the rest of the hard vegetables and saute lightly",
+          "Take off heat and add curry paste. Fry lightly at very low heat until fragrant",
+          "Add coconut milk and water to just cover all ingredients. Simmer very lightly on low heat with the lid on for at least 1 hour or until the pumpkin has either dissolved or is very soft.",
+          "Turn up to slightly higher heat and add greens to cook.",
+          "Take off heat and add seafood. Let sit for a few minutes then serve and add chopped coriander garnish"]
+      },
+      {
+        title: 'Lumberjack Cake',
+        tags: ['dessert', 'lumberjack cake'],
+        imageUrl: '/assets/images/lumberjackCake.jpeg',
+        cookTime: '1 hr 30 mins',
+        serves: '10',
+        ingredientsArray:[
+          {ingredientTitle: 'Cake ingredients',
+        ingredients: [
+          '2 apples (400gm) peeled, cored and chopped finely',
+          '1 cup finely chopped dried dates',
+          '1 tsp bicarb soda',
+          '1 cup boiling water',
+          '125gm softened butter',
+          '1 tsp vanilla extract',
+          '1 cup caster sugar',
+          '1 egg',
+          '1 1/2 cup plain flour'
+        ]},
+        {ingredientTitle: 'Coconut topping',
+        ingredients: [
+          '60gm chopped butter',
+          '1/2 cup firmly packed brown sugar',
+          '1/2 cup milk',
+          '2/3 cup shredded coconut'
+        ]}
+        ],
+        steps:[
+          'Preheat oven to 180C or 160C fan forced',
+          'Combine apples, dates, soda in large bowl, stir in water, cover and stand for 10 minutes',
+          'Beat butter, vanilla, sugar and egg until fluffy then add to apple mix',
+          'Add sifted flour, mix then pour into pan and cook for 50 minutes.',
+          'For topping, stir all ingredients over low heat until melted and dissolved.',
+          'Remove cake from oven and using spatula, spread warm topping over cake then return to over and bake for 20 minutes until browned.'
+        ]
+      }
     ]
   }
 }

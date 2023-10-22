@@ -3,6 +3,7 @@
   height: 20rem;
   border-radius: 1rem;
   margin-left: 10rem;
+  overflow: hidden;
 }
 
 .header {
