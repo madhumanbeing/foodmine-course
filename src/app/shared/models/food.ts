@@ -4,6 +4,6 @@ export class Food {
     imageUrl!:string;
     cookTime!:string;
     serves!:string;
-    ingredients!:string[];
+    ingredientsArray: { ingredientTitle: string, ingredients: string[] }[] = [];
     steps!:string[];
 }

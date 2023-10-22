@@ -6,16 +6,22 @@
   </div>
   <img [src]="food.imageUrl" [alt]="food.title" />
   <div class="ingredients">
-    <ul>
-      <h2>Ingredients</h2>
-      <li *ngFor="let ingredient of food.ingredients">{{ ingredient }}</li>
+    <ul class="ingredientsInner">
+      <li *ngFor="let ingredientObj of food.ingredientsArray; let i = index">
+        <h2 class="title">{{ ingredientObj.ingredientTitle }}</h2>
+        <ul>
+          <li *ngFor="let ingredient of ingredientObj.ingredients">
+            <p class="details">{{ ingredient }}</p>
+          </li>
+        </ul>
+      </li>
     </ul>
   </div>
   <div class="steps">
     <ul>
       <li *ngFor="let step of food.steps; let i = index">
-        <h3>Step {{ i + 1 }}</h3>
-        <p>{{ step }}</p>
+        <h3 class="title">Step {{ i + 1 }}</h3>
+        <p class="details">{{ step }}</p>
       </li>
     </ul>
   </div>

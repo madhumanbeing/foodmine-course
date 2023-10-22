@@ -26,6 +26,14 @@ ul {
   margin-left: 8rem;
 }
 
+.ingredientsInner ul {
+  margin-left: 0;
+}
+
+.ingredientsInner ul li {
+  margin-left: -2.45rem;
+}
+
 @media screen and (max-width: 767px) {
   ul {
     margin: 2rem auto;
