@@ -817,6 +817,33 @@ export class FoodService {
           'For topping, stir all ingredients over low heat until melted and dissolved.',
           'Remove cake from oven and using spatula, spread warm topping over cake then return to over and bake for 20 minutes until browned.'
         ]
+      },
+      {
+        title: 'Zucchini Slice',
+        tags: ['dinner', 'lunch', 'zucchini slice', 'vegetarian'],
+        imageUrl: '/assets/images/zucchiniSlice.jpg',
+        cookTime: '1 hr',
+        serves: '4',
+        ingredientsArray:[
+          {ingredientTitle: 'Ingredients',
+        ingredients: [
+          '1 large zucchini, grated and salted then squeezed(prep at least an hour beforehand)',
+          '1 large onion',
+          'mushrooms sauted in lemon juice (fry off early so not going into mixture hot)',
+          '4-5 beaten eggs',
+          'seeded mustard',
+          'salt and pepper',
+          'grated cheese of choice',
+          'thyme',
+          'tomatoes (sliced)',
+          'sunflower seeds'
+        ]}
+        ],
+        steps:[
+          'Combine all ingredients and pour into well oiled baking dish',
+          'Top with tomatoes and sunflower seeds',
+          'bake at around 180C for 45 minutes'
+        ]
       }
     ]
   }
