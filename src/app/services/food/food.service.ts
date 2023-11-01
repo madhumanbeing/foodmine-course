@@ -80,9 +80,10 @@ export class FoodService {
           "Boil for 10 minutes",
           "While potatoes are boiling, cook herbs and garlic with olive oil in pan on medium heat until garlic is browned.",
           "Strain garlic and herbs out while keeping the oil in a separate bowl.",
-          "Drain potatoes and let steam for a little bit. Then add salt and pepper and toss hard so the edges are roughed up.",
+          "Drain potatoes and let steam for a little bit. Then add salt, pepper, oil mix and toss hard so the edges are roughed up.",
           "Preheat oven to 230C then place potatoes spaced apart on tray lined with baking paper.",
           "Cook for 20 minutes then flip followed every 10 minutes with another flip until golden brown.",
+          "Add herbs to serve"
         ],
       },
       {        
