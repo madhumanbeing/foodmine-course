@@ -506,7 +506,7 @@ export class FoodService {
         ],
       },
       {
-        title: 'Vietnamese Noodle Salad',
+        title: 'Vietnamese Noodle',
         tags: ['dinner','lunch', 'vietnamese noodle salad', 'salad', 'vegetarian'],
         imageUrl: '/assets/images/vietnameseNoodle.jpg',
         cookTime: '30 min',

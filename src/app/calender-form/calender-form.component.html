@@ -1,0 +1,12 @@
+<div class="calender-form">
+  <form>
+    <label for="day" class="dayTitle"
+      ><span class="title">Add to calender:</span></label
+    >
+    <select id="day">
+      <option value="" disabled selected>Select a day</option>
+      <option *ngFor="let day of daysOfWeek" [value]="day">{{ day }}</option>
+    </select>
+    <button type="submit" (click)="addToCalender()">Add</button>
+  </form>
+</div>
